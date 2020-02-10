@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<head>
+		<title> Job Application  </title>
+		<link rel="stylesheet" type="text/css" href="jobApplicationForm.css" />
+	</head>
+
+<style type="text/css">
+	body {font-family:'Arial'}
+</style>
+
+
+	<body>
+	<h1> Printer Copy Assistant Application </h1>
+	<form action="http://gclass.alexburner.com/formtest.php" method="post"> ... </form>
+		<h3>
+		Personal Info
+	  </h3>
+		First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
+		<div>
+		<p> Are you a student? </p>
+		</div>
+		<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+		<div>
+		If yes, which school do you attend? <input type="password" name="school">
+	  </div>
+		<h3>
+		Relevant skills/experience
+	</h3>
+		<textarea name="essay" rows="7" cols="70">Type up to 300 words...</textarea>
+		<p> How many copies can you make a minute? Select one</p>
+		<select name="copies">
+			<option>less than 5</option>
+			<option>5 - 10</option>
+			<option>10 - 20</option>
+			<option>more than 20</option>
+		</select>
+
+		<p> Check if yes </p>
+		<input type="checkbox" name="computer">Do you have a personal computer?<br> <input type="checkbox" name="internet">Do you have internet access?
+
+		<div>
+		<h2>Avaliablity (Table)</h2>
+		</div>
+				<table>
+					<tr>
+						<td>Day of the week:</td>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+					<tr>
+						<th>Check if yes</th>
+						<td><input type="checkbox" name="avliable"></td>
+						<td><input type="checkbox" name="avliable"></td>
+						<td><input type="checkbox" name="avliable"></td>
+						<td><input type="checkbox" name="avliable"></td>
+						<td><input type="checkbox" name="avliable"></td>
+						<td><input type="checkbox" name="avliable"</td>
+						<td><input type="checkbox" name="avliable"></td>
+					</tr>
+				</table>
+				<div>
+				<input type="submit" value="Submit form" name="submit">
+				</div>
+	</body>
+
+</html>
